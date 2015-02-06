@@ -1,7 +1,11 @@
 #Shortcuts list
 ##Linux, emmet, html, css, git.
 
-[a relative link](linux.md)
+[linux commands](linux.md)
+[emmet commands](emmet.md)
+[git commands](git.md)
+[html helper](html.md)
+[css helper](css.md) 
 
 ###Comandos
 - `pos:s` = position:static;
@@ -58,5 +62,3 @@
 - `bb` = border-bottom:|;
 - `fz` = font-size:|;
 
-####Esses são alguns comandos que eu utilizo , assim que eu for lembrando de mais vou compartilhando com vocês,
-E você tem algum comando que utiliza bastante que eu não listei aqui? deixe seu feedback!
