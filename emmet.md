@@ -1,7 +1,8 @@
 #Emmet list
 
 ##HTML
-- `! or html:5` = 
+- `! or html:5`
+```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,6 +13,7 @@
 
 </body>
 </html>
+```
 
 script:src
 	<script src=""></script>
