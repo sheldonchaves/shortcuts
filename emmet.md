@@ -3,16 +3,16 @@
 ##HTML
 - `! or html:5`
 ```html
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
+	<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
 
-</body>
-</html>
+	</body>
+	</html>
 ```
 
 script:src
