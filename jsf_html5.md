@@ -52,9 +52,7 @@ input | type="url" | h:inputText
 input | type="week" | h:inputText
 input | type="file" | h:inputFile
 input | type="hidden" | h:inputHidden
-input | type="password" | h:inputinput jsf:id="name" type="text" jsf:value="#{complex.name}">
-                < f:ajax execute="@this" render="progress"/>
-            < /input>Secret
+input | type="password" | h:inputinput jsf:id="name" type="text" 
 input | type="reset" | h:commandButton
 input | type="submit" | h:commandButton
 input | type="*" | h:inputText
