@@ -76,3 +76,6 @@
 #
 	scp t.zip user@192.168.0.8:/home
 	//ssh copiar arquivo local destino
+#
+	nautilus .
+	// Abrir dir atual no files

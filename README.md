@@ -1,5 +1,4 @@
 #Shortcuts list
-##Linux, emmet, html, css, git.
 
 [linux commands](linux.md)  
 
@@ -10,3 +9,5 @@
 [html helper](html.md)  
 
 [css helper](css.md)  
+
+[jsf html5 helper](jsf_html5.md)  
