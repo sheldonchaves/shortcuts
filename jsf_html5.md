@@ -6,10 +6,26 @@
 	//div
 	<div jsf:id="divid">
 #
+	//form
+	<form jsf:id="form" jsf:prependId="false">
+#
 	// input
 	<input type="text" jsf:id="name" placeholder="Enter name" jsf:value="#{bean.name}"/>
+<input type="text" jsf:id="name" placeholder="Enter name" jsf:value="#{bean.name}"/>
+#
+	// ajax
+	<label jsf:for="name">Name </label>
+	<input jsf:id="name" type="text" jsf:value="#{complex.name}">
+		<f:ajax execute="@this" render="progress"/>
+	</input>
+#
+	//progress
+	<progress jsf:id="progress" max="3">#{complex.progress} of 3 </progress>
+<progress jsf:id="progress" max="3">#{complex.progress} of 3 </progress>
 
-Table 8-4 How Facelets Renders HTML5 Elements
+#
+
+####Table 8-4 How Facelets Renders HTML5 Elements
 
 HTML5 Element Name | Identifying Attribute | Facelets Tag
  - | - | - 
@@ -39,7 +55,9 @@ input | type="url" | h:inputText
 input | type="week" | h:inputText
 input | type="file" | h:inputFile
 input | type="hidden" | h:inputHidden
-input | type="password" | h:inputSecret
+input | type="password" | h:inputinput jsf:id="name" type="text" jsf:value="#{complex.name}">
+                < f:ajax execute="@this" render="progress"/>
+            < /input>Secret
 input | type="reset" | h:commandButton
 input | type="submit" | h:commandButton
 input | type="*" | h:inputText
@@ -68,4 +86,6 @@ textarea |  | h:inputTextArea
 	<input value="me@me.com" type="email" />
 
 ####References:
+https://weblogs.java.net/blog/edburns/archive/2012/11/01/html5-friendly-markup-jsf-22
+#
 https://docs.oracle.com/javaee/7/tutorial/jsf-facelets009.htm
