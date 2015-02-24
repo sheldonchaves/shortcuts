@@ -11,7 +11,6 @@
 #
 	// input
 	<input type="text" jsf:id="name" placeholder="Enter name" jsf:value="#{bean.name}"/>
-<input type="text" jsf:id="name" placeholder="Enter name" jsf:value="#{bean.name}"/>
 #
 	// ajax
 	<label jsf:for="name">Name </label>
@@ -21,14 +20,12 @@
 #
 	//progress
 	<progress jsf:id="progress" max="3">#{complex.progress} of 3 </progress>
-<progress jsf:id="progress" max="3">#{complex.progress} of 3 </progress>
-
 #
 
 ####Table 8-4 How Facelets Renders HTML5 Elements
 
 HTML5 Element Name | Identifying Attribute | Facelets Tag
- - | - | - 
+------------- | ------------- | -------------
 a | jsf:action | h:commandLink
 a | jsf:actionListener | h:commandLink
 a | jsf:value | h:outputLink
@@ -87,5 +84,7 @@ textarea |  | h:inputTextArea
 
 ####References:
 https://weblogs.java.net/blog/edburns/archive/2012/11/01/html5-friendly-markup-jsf-22
+#
+http://blog.triadworks.com.br/suporte-a-html5-com-jsf-2-2
 #
 https://docs.oracle.com/javaee/7/tutorial/jsf-facelets009.htm
