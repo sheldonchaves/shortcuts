@@ -35,3 +35,6 @@
 #
 	git clean -fd
 	//remove arquivos e diretorios untrackeds	
+#
+	gedit ~/.gitconfig
+	//editar atalhos
