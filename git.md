@@ -3,6 +3,9 @@
 	git checkout -b teste
 	//Cria e ja entra na branch
 #
+	git checkout --orphan teste
+	//Cria uma branch "sem pai"chamada teste
+#
 	git branchs
 	//Mostrar as branchs remotas e locais	
 #
