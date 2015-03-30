@@ -1,0 +1,34 @@
+[user]
+	email = sheldonchaves@gmail.com
+	name = Sheldon Chaves
+[push]
+	default = simple
+[credential]
+	helper = cache
+[alias]
+	change = "!f() { git checkout $1 && git pull $1; }; f"
+	update = "!f() { echo "//ck master" && git checkout master && echo "//rebase master" && git rebase --skip master $1 && echo "//merge " $1 && git merge $1; }; f"
+	branchs = branch -a
+	cp = cherry-pick
+	st = status
+	cl = clone
+	ci = commit
+	co = checkout
+	ck = checkout
+	br = branch 
+	diff = diff --word-diff
+	dc = diff --cached
+	gp = grep -Ii
+	sh = stash
+	last = log HEAD@{1}..HEAD@{0}
+	users = shortlog -sn
+	ac = !git add . && git commit -am
+	pushitgood = push -u origin --all
+	ls = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+	b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+
+	atualiza = !git checkout master && git pull
+	publica = !git pull && echo "[REBASE]" && git rebase desenvolvimento && git merge desenvolvimento && git push
+	publica2 = !git checkout master && git pull && git checkout desenvolvimento && git rebase master && git checkout master && git merge desenvolvimento && git push
+[color]
+	ui = auto
