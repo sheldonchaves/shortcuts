@@ -12,15 +12,15 @@
 #
 	dev: ====================
 	
-	sudo apt-get install git maven3 mysql-server adminer
+	sudo apt-get install git maven3 mysql-server adminer openvpn
 #
 	dev_extras: =====================
 
-	sudo apt-get install arduino
+	sudo apt-get install brackets atom arduino
 #
 	extras: =====================
 
-	sudo apt-get install filezilla libreoffice rar skype
+	sudo apt-get install filezilla libreoffice rar skype 
 #
 	codecs: =====================
 
