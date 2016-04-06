@@ -126,6 +126,10 @@ Faz o download de todo histórico do repositório incluindo as mudanças
 
 #GIT
 
+	git remote -v
+	//ver origin do repositorio
+#
+
 	git checkout -b teste
 	//Cria e ja entra na branch
 #
