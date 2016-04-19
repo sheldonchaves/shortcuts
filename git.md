@@ -121,6 +121,12 @@ Faz upload de todo o conteúdo local  para o servidor do Git
     $ git pull
 Faz o download de todo histórico do repositório incluindo as mudanças
 
+### Merge branch to master
+
+    git checkout newMaster
+    git merge --strategy=ours master    # mantem o conteudo da branch e grava um merge
+    git checkout master
+    git merge newMaster             	# faz o merge da master com a newMaster
 
 
 
