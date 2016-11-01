@@ -1,4 +1,10 @@
 #GIT
+
+### alterando de SSH pra HTTPs
+	git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
+	//or
+	git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
+
 ###Ferramentas de configuração (define quem fez as atualizações)
 	$ git config –global user.name "[nome/nick do desenvolvedor]"
 Define o nome ou o apelido de quem realiza as alterações, o nome é enviado ao GIT e descreve quem realizou a alteração de maneira simples.
