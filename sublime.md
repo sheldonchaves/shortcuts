@@ -8,12 +8,16 @@
 
 #### SIDEBAR ENHANCEMENTS
 #### Plain Tasks
-  For a new task:
+
+-For a new task:
   Ctrl ⌃ + Return ↵ (Windows and Linux)
-  To mark as done:
+  
+-To mark as done:
   Ctrl ⌃ + D (Windows and Linux)
-  To mark as cancelled:
+  
+-To mark as cancelled:
   Alt + C (Windows and Linux)
+  
 #### SUBLIME LINTER
 #### EMMET
 #### Sublime Tutor
