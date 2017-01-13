@@ -1,5 +1,10 @@
 #GIT
 
+### alterando origin
+	git remote rm origin
+	git remote add origin https://sheldonchaves@bitbucket.org/rlenzi365/abril-commerce.git
+	git branch --set-upstream-to=origin/master
+
 ### alterando de SSH pra HTTPs
 	git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
 	//or
