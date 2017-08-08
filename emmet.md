@@ -101,6 +101,37 @@
 ```html
 	<p>Lorem ipsum dolor.</p>
 ```
+	div.container>div.left+div.rigth
+	#
+	<div class="container">
+	<div class="left"></div>
+	<div class="rigth"></div>
+</div>
+
+	div.classeteste>span.classe${teste $}*5
+	#
+	<div class="classeteste">
+	<span class="classe1">teste 1</span>
+	<span class="classe2">teste 2</span>
+	<span class="classe3">teste 3</span>
+	<span class="classe4">teste 4</span>
+	<span class="classe5">teste 5</span>
+</div>
+
+	#div#page>(div.logo>img[/img/logo.png])+ul#navigation>li*5>a[www.google.com]{google link numero $}
+	#
+	<div id="page">
+	<div class="logo"><img src="/img/logo.png" alt=""></div>
+	<ul id="navigation">
+		<li><a href="www.google.com">google link numero 1</a></li>
+		<li><a href="www.google.com">google link numero 2</a></li>
+		<li><a href="www.google.com">google link numero 3</a></li>
+		<li><a href="www.google.com">google link numero 4</a></li>
+		<li><a href="www.google.com">google link numero 5</a></li>
+	</ul>
+</div>
+
+	
 ##CSS
 
 Shorcut  | Result
